@@ -1,0 +1,47 @@
+Artificial Intelligence
+
+Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence.
+
+AI systems can perform tasks such as understanding natural language, recognizing images, making predictions, solving problems, and generating content.
+
+Machine Learning
+
+Machine Learning (ML) is a subset of Artificial Intelligence. It allows computers to learn patterns from data instead of being explicitly programmed for every task.
+
+There are three common types of machine learning: supervised learning, unsupervised learning, and reinforcement learning.
+
+Generative AI
+
+Generative AI is a branch of artificial intelligence that can create new content such as text, images, audio, video, and code.
+
+Large Language Models (LLMs) are a major technology behind modern generative AI applications. Models such as GPT can understand and generate human-like text.
+
+Retrieval Augmented Generation
+
+Retrieval Augmented Generation (RAG) is a technique that combines information retrieval with text generation.
+
+In a RAG system, documents are first loaded and divided into smaller pieces called chunks. These chunks are converted into embeddings and stored in a vector database.
+
+When a user asks a question, the system converts the question into an embedding and searches for the most relevant chunks.
+
+The retrieved information is then provided to the language model as context. The language model uses this context to generate a more accurate and relevant answer.
+
+Text Chunking
+
+Text chunking is the process of dividing a large document into smaller pieces. Chunking is important because language models and embedding models work more effectively with manageable amounts of text.
+
+A good chunking strategy should preserve the meaning and context of the original document. Common approaches include fixed-size chunking, sentence-based chunking, and recursive chunking.
+
+Embeddings
+
+Embeddings are numerical representations of text. They convert words, sentences, or documents into vectors that capture semantic meaning.
+
+Similar pieces of text tend to have similar vector representations. This allows a RAG system to find relevant information using vector similarity.
+
+Vector Databases
+
+A vector database stores embeddings and allows applications to perform similarity searches efficiently.
+
+Popular vector databases include FAISS, Chroma, Pinecone, and Weaviate.
+
+A typical RAG pipeline contains five major steps: document loading, text chunking, embedding generation, vector storage, and retrieval followed by generation.
